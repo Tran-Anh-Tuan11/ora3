@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CTTBK_MainPage</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./font/fontawesome-free-6.4.0-web/css/all.min.css">
+    <!-- <script src="app.js"></script> -->
+</head>
+<body>
+    <div id="main">
+        <div class="top-header"></div>
+        <div class="headerLogo">
+            <img id="logo" src="./img/logo-cttdt.png" alt="logo-CTTDT"> 
+        </div>
+        <br>
+        <div class="infoCaNhan">
+            <span>THÔNG TIN CÁ NHÂN</span>
+            <button id="export-btn" onclick="">
+                <i class="fa-solid fa-file-pdf"></i>
+                <span>Export to PDF</span>
+            </button>
+        </div>
+
+        <div class="view_edit">
+            <form action="" class="formInput">
+                <div class="info_student group-0">
+                    <span class="textBig">Thông tin sinh viên_20204616</span>
+                    <button class="add_info" onclick="add_item_info(event)">
+                        Add info item
+                    </button>
+                    <button class="add_group" onclick="add_group_info()">
+                        Add group item
+                    </button>                     
+                </div>  
+            </form>
+        </div>
+        </div>
+    
+    </div>    
+    <br>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.22/pdfmake.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+
+</body>
+</html>

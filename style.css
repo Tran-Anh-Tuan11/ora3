@@ -1,0 +1,100 @@
+.top-header {
+    height: 10px;
+    width: 100%;
+    background-color: rgb(172, 3, 3);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.headerLogo {
+    border-top: 10px solid var(--main-color-red);
+    padding: 10px 0;
+    height: 120px;
+    padding-left: 125px;
+    box-shadow: 0px -5px 10px rgb(172, 3, 3);;
+}
+
+#logo {
+    height: 100%;
+}
+
+.infoCaNhan {
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(172, 3, 3);
+    align-items: center;
+    justify-content: center;
+}
+
+.info_student::after {
+    content: "";
+    border: 1px solid #be8a63;
+    display: block;
+    width: 50%;
+    margin: 10px 0;
+}
+
+.info_student {
+    line-height: 3.3rem;
+}
+
+.textBig {
+    font-size: 1.4rem;
+    color: #4d64a8;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    user-select: none;
+    background-color: white;
+    border: none;
+    outline: none;
+    margin: 0;
+    padding: 0;
+}
+
+.add_info,
+.add_group {
+    margin-left: 20px;
+    font-size: 10px;
+}
+
+.info_item_new_field {
+    color: black;
+    font-size: 1.4rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    user-select: none;
+    background-color: white;
+    padding: 0;
+}
+
+.iconDel {
+    font-size: 1.4rem;
+    margin: 5px;
+}
+
+#export-btn {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+#export-btn i {
+    font-size: 20px;
+    color: #9c1010;
+}
+
+#info_new {
+    box-sizing: border-box;
+    min-width: 173px;
+    padding: 2px;
+    background-color: white;
+    text-align: left;
+}
